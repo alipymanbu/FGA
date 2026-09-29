@@ -1,63 +1,24 @@
-# Fate/Grand Automata
+# fga
 
-[![CI](https://github.com/Fate-Grand-Automata/FGA/actions/workflows/ci.yml/badge.svg)](https://github.com/Fate-Grand-Automata/FGA/actions/workflows/ci.yml)
+本仓库是「fga」的安卓版本获取入口，附使用资料索引。
 
-[![Discord Banner 2](https://discordapp.com/api/guilds/1117873862500163684/widget.png?style=banner2)](https://tinyurl.com/2z2d6wuz)
+## 安装文件资源（夸克网盘）
 
-Auto-battle app for FGO (Android 7 or later, no need for root on phones).
+> **fga 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/8b21ca5215e8](https://pan.quark.cn/s/8b21ca5215e8)
 
-Download from our [website](https://fate-grand-automata.github.io)
+## 官方项目
 
-This is a **Kotlin** port of [FGO-Lua][FGOLua] as an Android app with UI for configuration and without a time-limit on use.  
-It doesn't tamper with the game in anyway and works by looking at the screen and tapping things just like a normal user would do.  
-It's not made to do the story for you, but to automate the mundane farming.
+- 上游项目：[Fate-Grand-Automata/FGA](https://github.com/Fate-Grand-Automata/FGA)
 
-Having Trouble? See the [Troubleshooting Guide](https://github.com/Fate-Grand-Automata/FGA/wiki/Troubleshooting) first.
+## 更多资料
 
-## Video Guide by @reconman
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/fga/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [助战选择设置教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/fga/%E5%8A%A9%E6%88%98%E9%80%89%E6%8B%A9%E8%AE%BE%E7%BD%AE%E6%95%99%E7%A8%8B.md)
+- [常见问题与解决方法](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/fga/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.md)
+- [手机后台保活设置](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/fga/%E6%89%8B%E6%9C%BA%E5%90%8E%E5%8F%B0%E4%BF%9D%E6%B4%BB%E8%AE%BE%E7%BD%AE.md)
+- [自动战斗配置教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/fga/%E8%87%AA%E5%8A%A8%E6%88%98%E6%96%97%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-[![Watch the video guide](https://img.youtube.com/vi/JOwupZ4W8AQ/sddefault.jpg)](https://youtu.be/JOwupZ4W8AQ)
+---
 
-## How to Use?
-
-1. Install from the link given above and launch the app.
-2. Click on `Start Service` and give all the permissions it asks for.
-3. Open FGO. Now, you can see a button with play icon on it floating on screen.
-4. Go to the node you want to farm.
-5. Press Play to start. The same button can be pressed to pause/stop later.
-
-Check the [Troubleshooting Guide](https://github.com/Fate-Grand-Automata/FGA/wiki/Troubleshooting) first if you face any problems.
-
-## How to make/use images of Servant/CE/Friend?
-
-See the wiki page for [Support Image Maker](https://github.com/Fate-Grand-Automata/FGA/wiki/Support-Image-Maker).
-
-## What about other scripts like Lottery and Friend Gacha?
-
-When you click on the PLAY button, the app detects which script can be run on the current screen and presents it to you.
-
-## How does it work?
-
-This is a native Android app written in Kotlin.
-We use [OpenCV](https://opencv.org/) for image recognition,
-[Media Projection](https://developer.android.com/reference/android/media/projection/MediaProjection) for taking screenshots
-and [Accessibility Service](https://developer.android.com/guide/topics/ui/accessibility) for clicking/swiping.
-
-## Contributing
-
-If you want to contribute, read the [Contribution Guide](CONTRIBUTING.md).
-
-## Acknowledgements
-
-- [FGO-Lua][FGOLua] developers are the real deal. Without them this app won't exist.
-- The icons are from https://materialdesignicons.com/
-
-[FGOLua]: https://github.com/29988122/Fate-Grand-Order_Lua
-
-## Like the project? Want to support us?
-
-<a href='https://ko-fi.com/W7W0F7D9T' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
-Code/doc contributions are surely welcome!
-
-Translations should be edited via https://poeditor.com/join/project/67PXOyBGI0
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/Fate-Grand-Automata/FGA)。
